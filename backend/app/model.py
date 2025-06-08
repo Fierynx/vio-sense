@@ -1,6 +1,6 @@
 import tensorflow as tf
 import numpy as np
-
+# from official.projects.movinet.modeling import movinet_model, movinet
 class ViolenceDetector:
     def __init__(self, model_path: str, input_size: tuple[int, int]):
         """
@@ -8,9 +8,11 @@ class ViolenceDetector:
         model_path: path to saved .h5 or SavedModel directory
         input_size: (width, height) expected by the model
         """
+            
         self.model = tf.keras.models.load_model(model_path)
+
         self.input_size = input_size
-    
+
     def predict_sequence(self, seq: np.ndarray) -> dict:
         """
         Run inference on a sequence of frames

@@ -1,0 +1,12 @@
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.log
+venv/
+.git/
+.dockerignore
+.gitignore

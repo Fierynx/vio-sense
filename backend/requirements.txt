@@ -3,3 +3,4 @@ uvicorn[standard]
 tensorflow
 opencv-python-headless
 numpy
+tf-models-official
