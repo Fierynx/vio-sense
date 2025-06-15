@@ -1,4 +1,3 @@
-// useVideoProcess.ts
 import { useEffect, useRef, useState } from 'react'
 import { createWebSocket, registerConnectionListener, isWebSocketConnected } from '@/lib/services/websocket'
 import { Prediction } from '@/lib/types/PredictionType'
