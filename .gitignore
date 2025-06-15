@@ -1,2 +1,3 @@
-data/
-test_videos/
+data
+test_videos
+.vscode
