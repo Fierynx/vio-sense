@@ -17,7 +17,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
 ### Dataset:
-https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset/code?datasetId=176381
+https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset/
 
 ### Deep Learning Reference:
 https://www.kaggle.com/code/abduulrahmankhalid/real-time-violence-detection-mobilenet-bi-lstm
